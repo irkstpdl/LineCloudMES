@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/LineCloudMES/LineCloudMES.iml" filepath="$PROJECT_DIR$/LineCloudMES/LineCloudMES.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mes-plugins-basic-production-counting.iml" filepath="$PROJECT_DIR$/mes-plugins-basic-production-counting.iml" />
     </modules>
   </component>
 </project>

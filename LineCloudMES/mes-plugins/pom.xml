@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>LineCloudMES</artifactId>
+        <groupId>com.lc</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>mes-plugins</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>mes-plugins-advanced-genealogy</module>
+        <module>mes-plugins-assignment-to-shift</module>
+        <module>mes-plugins-avg-labor-cost-calc-for-order</module>
+        <module>mes-plugins-basic</module>
+        <module>mes-plugins-basic-production-counting</module>
+        <module>mes-plugins-cat-numbers-in-deliveries</module>
+        <module>mes-plugins-cat-numbers-in-negot</module>
+        <module>mes-plugins-cmms-machine-parts</module>
+        <module>mes-plugins-column-extension</module>
+        <module>mes-plugins-cost-calculation</module>
+        <module>mes-plugins-cost-norms-for-materials</module>
+        <module>mes-plugins-cost-norms-for-operation-in-order</module>
+        <module>mes-plugins-cost-norms-for-operation</module>
+        <module>mes-plugins-cost-norms-for-product</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>16</maven.compiler.source>
+        <maven.compiler.target>16</maven.compiler.target>
+    </properties>
+
+</project>

@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/LineCloudMES/mes-application/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LineCloudMES/mes-plugins/mes-plugins-advanced-genealogy/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LineCloudMES/mes-plugins/mes-plugins-assignment-to-shift/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LineCloudMES/mes-plugins/mes-plugins-avg-labor-cost-calc-for-order/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LineCloudMES/mes-plugins/mes-plugins-basic-production-counting/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LineCloudMES/mes-plugins/mes-plugins-basic/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LineCloudMES/mes-plugins/mes-plugins-cat-numbers-in-deliveries/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LineCloudMES/mes-plugins/mes-plugins-cat-numbers-in-negot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LineCloudMES/mes-plugins/mes-plugins-cmms-machine-parts/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LineCloudMES/mes-plugins/mes-plugins-column-extension/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LineCloudMES/mes-plugins/mes-plugins-cost-calculation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LineCloudMES/mes-plugins/mes-plugins-cost-norms-for-materials/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LineCloudMES/mes-plugins/mes-plugins-cost-norms-for-operation-in-order/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LineCloudMES/mes-plugins/mes-plugins-cost-norms-for-operation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LineCloudMES/mes-plugins/mes-plugins-cost-norms-for-product/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LineCloudMES/mes-plugins/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LineCloudMES/mes-plugins/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LineCloudMES/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LineCloudMES/src/main/resources" charset="UTF-8" />
   </component>
 </project>
