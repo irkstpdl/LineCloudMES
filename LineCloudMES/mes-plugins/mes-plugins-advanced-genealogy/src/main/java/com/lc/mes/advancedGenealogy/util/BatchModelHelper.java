@@ -6,6 +6,20 @@ import static com.lc.model.api.search.SearchRestrictions.eq;
 import static com.lc.model.api.search.SearchRestrictions.isNull;
 import static com.lc.model.api.search.SearchRestrictions.or;
 
-import or
+import org.apache.commons.lang3.StringUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.lc.mes.advancedGenealogy.constants.AdvancedGenealogyConstants;
+import com.lc.mes.advancedGenealogy.constants.BatchFields;
+import com.lc.model.api.DataDefinition;
+import com.lc.model.api.DataDefinitionService;
+import com.lc.model.api.Entity;
+import com.lc.model.api.search.SearchCriteriaBuilder;
+
+@Service
 public class BatchModelHelper {
+
+    @Autowired
+    private
 }
