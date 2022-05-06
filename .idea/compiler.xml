@@ -6,6 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="mes-application" />
+      </profile>
+      <profile name="Annotation profile for LineCloudMES" enabled="true">
+        <sourceOutputDir name="../../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
         <module name="mes-plugins-column-extension" />
         <module name="mes-plugins-cost-calculation" />
         <module name="mes-plugins-cost-norms-for-product" />
@@ -14,18 +20,14 @@
         <module name="mes-plugins-cost-norms-for-materials" />
         <module name="mes-plugins-assignment-to-shift" />
         <module name="mes-plugins-avg-labor-cost-calc-for-order" />
-        <module name="mes-plugins-basic" />
         <module name="mes-plugins-cost-norms-for-operation-in-order" />
+        <module name="mes-plugins-basic" />
+        <module name="mes-plugins-advanced-genealogy" />
         <module name="mes-plugins-cost-norms-for-operation" />
-        <module name="mes-application" />
+        <module name="mes-plugins-deliveries-min-state" />
+        <module name="mes-plugins-deliveries-to-material-flow" />
         <module name="mes-plugins-cat-numbers-in-negot" />
         <module name="mes-plugins-basic-production-counting" />
-      </profile>
-      <profile name="Annotation profile for LineCloudMES" enabled="true">
-        <sourceOutputDir name="../../target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="mes-plugins-advanced-genealogy" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

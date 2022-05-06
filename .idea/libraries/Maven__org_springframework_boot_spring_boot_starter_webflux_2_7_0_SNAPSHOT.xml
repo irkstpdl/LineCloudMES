@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: org.springframework.boot:spring-boot-starter-webflux:2.7.0-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-webflux/2.7.0-SNAPSHOT/spring-boot-starter-webflux-2.7.0-20220504.115528-387.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-webflux/2.7.0-SNAPSHOT/spring-boot-starter-webflux-2.7.0-20220505.101944-389.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-webflux/2.7.0-SNAPSHOT/spring-boot-starter-webflux-2.7.0-20220504.115528-387-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-webflux/2.7.0-SNAPSHOT/spring-boot-starter-webflux-2.7.0-20220505.101944-389-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-webflux/2.7.0-SNAPSHOT/spring-boot-starter-webflux-2.7.0-20220504.115528-387-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-webflux/2.7.0-SNAPSHOT/spring-boot-starter-webflux-2.7.0-20220505.101944-389-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
