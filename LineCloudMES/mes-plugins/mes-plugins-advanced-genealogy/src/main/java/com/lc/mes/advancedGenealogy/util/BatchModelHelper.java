@@ -21,5 +21,7 @@ import com.lc.model.api.search.SearchCriteriaBuilder;
 public class BatchModelHelper {
 
     @Autowired
-    private
+    private  DataDefinitionService dataDefinitionService;
+
+
 }

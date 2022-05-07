@@ -8,8 +8,9 @@
     <parent>
         <artifactId>mes-plugins</artifactId>
         <groupId>com.lc.mes</groupId>
-        <version>1.5 -SNAPSHOT</version>
+        <version>1.5-SNAPSHOT</version>
     </parent>
+
 
 
     <artifactId>mes-plugins-advanced-genealogy</artifactId>
@@ -23,6 +24,7 @@
             <artifactId>mes-plugins-states</artifactId>
             <version>1.5 -SNAPSHOT</version>
         </dependency>
+
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-web</artifactId>
@@ -34,6 +36,10 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
