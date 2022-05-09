@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 
 import com.lc.mes.advancedGenealogy.states.constants.BatchState;
 import com.lc.mes.advancedGenealogy.states.constants.BatchStateChangeDescriber;
-import com.qcadoo.mes.states.service.StateChangeEntityBuilder;
+import com.lc.mes.states.service.StateChangeEntityBuilder;
 
 import com.lc.model.api.DataDefinition;
 import com.lc.model.api.Entity;
