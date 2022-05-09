@@ -3,7 +3,7 @@ package com.lc.model.api.types;
 import java.util.Locale;
 
 import com.lc.model.api.FieldDefinition;
-import com.lc.model.internal.api.ValueAndError;
+import com.lc.model.internal.api.Constants;
 
 /**
  * Object represents field type.
@@ -26,7 +26,7 @@ public interface FieldType {
      *            value
      * @return value with validation result
      */
-    ValueAndError toObject(FieldDefinition fieldDefinition, Object value);
+    Constants toObject(FieldDefinition fieldDefinition, Object value);
 
     /**
      * Convert field's value to string.
