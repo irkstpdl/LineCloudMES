@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/LineCloudMES/LineCloud/lc-javadoc/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LineCloudMES/LineCloud/lc-localization/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LineCloudMES/LineCloud/lc-model/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LineCloudMES/LineCloud/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LineCloudMES/LineCloud/src/main/javadoc" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LineCloudMES/LineCloud/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/LineCloudMES/mes-application/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LineCloudMES/mes-application/src/main/webapp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LineCloudMES/mes-plugins/mes-plugins-advanced-genealogy/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LineCloudMES/mes-plugins/mes-plugins-assignment-to-shift/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LineCloudMES/mes-plugins/mes-plugins-avg-labor-cost-calc-for-order/src/main/java" charset="UTF-8" />

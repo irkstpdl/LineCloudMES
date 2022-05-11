@@ -7,9 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mes-application" />
         <module name="lc-localization" />
+        <module name="mes-application" />
         <module name="lc-model" />
+        <module name="lc-javadoc" />
       </profile>
       <profile name="Annotation profile for LineCloudMES" enabled="true">
         <sourceOutputDir name="../../target/generated-sources/annotations" />
@@ -41,6 +42,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="LineCloud" options="-parameters" />
       <module name="LineCloudMES" options="-parameters" />
+      <module name="lc-javadoc" options="-parameters" />
       <module name="lc-localization" options="-parameters" />
       <module name="lc-model" options="-parameters" />
       <module name="mes-application" options="-parameters" />
