@@ -1,4 +1,9 @@
 package com.lc.model.internal.classconverter;
 
-public class LineCloudModelBean {
+public interface LineCloudModelBean {
+
+    Long getId();
+
+
+    int flatHashCode();
 }

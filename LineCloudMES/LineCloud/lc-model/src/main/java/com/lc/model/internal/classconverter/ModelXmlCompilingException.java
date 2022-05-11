@@ -1,4 +1,9 @@
 package com.lc.model.internal.classconverter;
 
-public class ModelXmlCompilingException {
+@SuppressWarnings("serial")
+public class ModelXmlCompilingException extends Exception {
+
+    public ModelXmlCompilingException(final String message,final Throwable throwable) {
+        super(message,throwable);
+    }
 }

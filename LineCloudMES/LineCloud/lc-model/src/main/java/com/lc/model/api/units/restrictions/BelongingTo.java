@@ -1,5 +1,6 @@
 package com.lc.model.api.units.restrictions;
 
+import com.lc.model.internal.FieldDefinitionImpl;
 import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
 
@@ -47,8 +48,8 @@ public class BelongingTo implements CustomRestriction {
         }
 
         BelongingTo that= (BelongingTo) o;
-        DataDefinition thisDataDef = this.entity.getDataDefinition();
         DataDefinition thisDataDef = that.entity.getDataDefinition();
+        DataDefinition thatDataDef= this.entity.getDataDefinition();
         return new EqualsBuilder().append(this.fieldName,that.fieldName).append(this.entity.getId(), that.entity.getId())
                 .append(thisDataDef.getName(), thatDataDef.getName())
                 .append(thisDataDef.getPluginIdentifier(), thatDataDef.getPluginIdentifier()).isEquals();

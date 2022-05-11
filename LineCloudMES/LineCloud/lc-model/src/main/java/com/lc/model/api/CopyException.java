@@ -15,7 +15,7 @@ public final class CopyException extends RuntimeException {
      *      entity in corrupted state
      */
     public CopyException(final Entity entity) {
-        super()
+        super();
         this.entity = entity;
     }
 
