@@ -177,4 +177,10 @@ public final class DefaultEntity implements Entity,EntityAwareEqualsPerformers,E
         return otherEntity != null && definitionsAndIdsAreEqual(otherEntity) && fieldsAreEquals(otherEntity,null,true);
 
     }
+
+    @Override
+    public boolean equals(final Entity otherEntity,final PerformerEntitiesChain performerEntitiesChain) {
+        return otherEntity !=null;
+            && (otherEntity == performerChain.getLast() || )
+    }
 }
