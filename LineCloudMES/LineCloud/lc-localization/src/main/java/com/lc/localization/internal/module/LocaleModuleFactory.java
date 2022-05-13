@@ -1,4 +1,10 @@
 package com.lc.localization.internal.module;
 
-public class LocaleModuleFactory {
+import org.jdom.Element;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.lc.localization.internal.InternalTranslationService;
+//import com.lc.plugin.api.ModuleFactory;
+
+public class LocaleModuleFactory extends  {
 }
