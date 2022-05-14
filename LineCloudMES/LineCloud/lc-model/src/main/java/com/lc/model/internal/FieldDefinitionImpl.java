@@ -177,7 +177,8 @@ public  final class FieldDefinitionImpl implements InternalFieldDefinition {
 
     @Override
     public int hashCode() {
-        return new HashCodeBuilder(13, 31).append(defaultValue).append(name).append(required).append(type).append(unique)
+        return new HashCodeBuilder(13, 31).append(defaultValue).append(name).
+                append(required).append(type).append(unique)
                 .append(validators).append(readOnly).append(expression).toHashCode();
     }
 
