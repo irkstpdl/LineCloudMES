@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="lc-localization" />
         <module name="mes-application" />
+        <module name="lc-tenant" />
         <module name="lc-model" />
         <module name="lc-javadoc" />
       </profile>
@@ -45,6 +46,7 @@
       <module name="lc-javadoc" options="-parameters" />
       <module name="lc-localization" options="-parameters" />
       <module name="lc-model" options="-parameters" />
+      <module name="lc-tenant" options="-parameters" />
       <module name="mes-application" options="-parameters" />
       <module name="mes-plugins" options="-parameters" />
       <module name="mes-plugins-advanced-genealogy" options="-parameters" />
