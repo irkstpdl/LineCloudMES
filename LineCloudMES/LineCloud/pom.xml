@@ -16,7 +16,25 @@
         <module>lc-localization</module>
         <module>lc-javadoc</module>
         <module>lc-tenant</module>
+        <module>lc-mail</module>
+        <module>lc-view</module>
+        <module>lc-security</module>
+        <module>lc-testing</module>
     </modules>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.7</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>18.0</version>
+        </dependency>
+    </dependencies>
 
     <properties>
         <maven.compiler.source>16</maven.compiler.source>

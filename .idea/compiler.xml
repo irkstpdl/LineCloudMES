@@ -7,10 +7,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="lc-tenant" />
+        <module name="lc-mail" />
+        <module name="lc-testing" />
+        <module name="lc-model" />
         <module name="lc-localization" />
         <module name="mes-application" />
-        <module name="lc-tenant" />
-        <module name="lc-model" />
+        <module name="lc-view" />
+        <module name="lc-security" />
         <module name="lc-javadoc" />
       </profile>
       <profile name="Annotation profile for LineCloudMES" enabled="true">
@@ -25,8 +29,8 @@
         <module name="mes-plugins-cost-norms-for-materials" />
         <module name="mes-plugins-assignment-to-shift" />
         <module name="mes-plugins-avg-labor-cost-calc-for-order" />
-        <module name="mes-plugins-cost-norms-for-operation-in-order" />
         <module name="mes-plugins-basic" />
+        <module name="mes-plugins-cost-norms-for-operation-in-order" />
         <module name="mes-plugins-advanced-genealogy" />
         <module name="mes-plugins-cost-norms-for-operation" />
         <module name="mes-plugins-deliveries-min-state" />
@@ -45,8 +49,12 @@
       <module name="LineCloudMES" options="-parameters" />
       <module name="lc-javadoc" options="-parameters" />
       <module name="lc-localization" options="-parameters" />
+      <module name="lc-mail" options="-parameters" />
       <module name="lc-model" options="-parameters" />
+      <module name="lc-security" options="-parameters" />
       <module name="lc-tenant" options="-parameters" />
+      <module name="lc-testing" options="-parameters" />
+      <module name="lc-view" options="-parameters" />
       <module name="mes-application" options="-parameters" />
       <module name="mes-plugins" options="-parameters" />
       <module name="mes-plugins-advanced-genealogy" options="-parameters" />
