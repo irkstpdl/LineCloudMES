@@ -11,6 +11,7 @@
         <module name="lc-mail" />
         <module name="lc-testing" />
         <module name="lc-model" />
+        <module name="lc-plugin-archetype" />
         <module name="lc-localization" />
         <module name="mes-application" />
         <module name="lc-view" />
@@ -51,6 +52,7 @@
       <module name="lc-localization" options="-parameters" />
       <module name="lc-mail" options="-parameters" />
       <module name="lc-model" options="-parameters" />
+      <module name="lc-plugin-archetype" options="-parameters" />
       <module name="lc-security" options="-parameters" />
       <module name="lc-tenant" options="-parameters" />
       <module name="lc-testing" options="-parameters" />

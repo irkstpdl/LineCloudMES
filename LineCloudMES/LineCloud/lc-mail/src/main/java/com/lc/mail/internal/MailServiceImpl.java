@@ -19,4 +19,10 @@ import javax.mail.internet.MimeMessage;
 
 @Service
 public class MailServiceImpl implements MailService {
+
+    @Autowired
+    protected JavaMailSender mailSender;
+
+    @Value("${mail.adress}")
+    private
 }
