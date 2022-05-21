@@ -21,6 +21,7 @@
         <module>lc-security</module>
         <module>lc-testing</module>
         <module>lc-plugin-archetype</module>
+        <module>lc-plugin</module>
     </modules>
 
 
