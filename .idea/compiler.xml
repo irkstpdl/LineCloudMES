@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/LineCloudMES/LineCloud/lc-plugin-archetype/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
@@ -16,6 +19,7 @@
         <module name="mes-application" />
         <module name="lc-view" />
         <module name="lc-security" />
+        <module name="lc-plugin" />
         <module name="lc-javadoc" />
       </profile>
       <profile name="Annotation profile for LineCloudMES" enabled="true">
@@ -52,6 +56,7 @@
       <module name="lc-localization" options="-parameters" />
       <module name="lc-mail" options="-parameters" />
       <module name="lc-model" options="-parameters" />
+      <module name="lc-plugin" options="-parameters" />
       <module name="lc-plugin-archetype" options="-parameters" />
       <module name="lc-security" options="-parameters" />
       <module name="lc-tenant" options="-parameters" />

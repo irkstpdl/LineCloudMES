@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: org.springframework.boot:spring-boot-starter-jdbc:2.7.0-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-jdbc/2.7.0-SNAPSHOT/spring-boot-starter-jdbc-2.7.0-20220516.181905-405.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-jdbc/2.7.0-SNAPSHOT/spring-boot-starter-jdbc-2.7.0-20220519.113841-421.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-jdbc/2.7.0-SNAPSHOT/spring-boot-starter-jdbc-2.7.0-20220516.181905-405-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-jdbc/2.7.0-SNAPSHOT/spring-boot-starter-jdbc-2.7.0-20220519.113841-421-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-jdbc/2.7.0-SNAPSHOT/spring-boot-starter-jdbc-2.7.0-20220516.181905-405-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-jdbc/2.7.0-SNAPSHOT/spring-boot-starter-jdbc-2.7.0-20220519.113841-421-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
