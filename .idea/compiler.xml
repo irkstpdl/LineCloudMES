@@ -21,6 +21,7 @@
         <module name="lc-security" />
         <module name="lc-plugin" />
         <module name="lc-javadoc" />
+        <module name="lc-plugins-custom-translation-management" />
       </profile>
       <profile name="Annotation profile for LineCloudMES" enabled="true">
         <sourceOutputDir name="../../target/generated-sources/annotations" />
@@ -58,6 +59,7 @@
       <module name="lc-model" options="-parameters" />
       <module name="lc-plugin" options="-parameters" />
       <module name="lc-plugin-archetype" options="-parameters" />
+      <module name="lc-plugins-custom-translation-management" options="-parameters" />
       <module name="lc-security" options="-parameters" />
       <module name="lc-tenant" options="-parameters" />
       <module name="lc-testing" options="-parameters" />

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ResourceBundleManager">
+    <file url="file://$PROJECT_DIR$/LineCloudMES/LineCloud/lc-plugins-custom-translation-management/src/main/resources/lcCustomTranslations/locales/lcCustomTranslations_en.properties.properties" />
+    <file url="file://$PROJECT_DIR$/LineCloudMES/LineCloud/lc-plugins-custom-translation-management/src/main/resources/lcCustomTranslations/locales/lcCustomTranslations_fr.properties.properties" />
+    <custom-resource-bundle>
+      <file value="file://$PROJECT_DIR$/LineCloudMES/LineCloud/lc-plugins-custom-translation-management/src/main/resources/lcCustomTranslations/locales/lcCustomTranslations_en.properties.properties" />
+      <file value="file://$PROJECT_DIR$/LineCloudMES/LineCloud/lc-plugins-custom-translation-management/src/main/resources/lcCustomTranslations/locales/lcCustomTranslations_fr.properties.properties" />
+      <file value="file://$PROJECT_DIR$/LineCloudMES/LineCloud/lc-plugins-custom-translation-management/src/main/resources/lcCustomTranslations/locales/lcCustomTranslations_pl.properties" />
+      <base-name>lcCustomTranslations.properties</base-name>
+    </custom-resource-bundle>
+  </component>
+</project>
