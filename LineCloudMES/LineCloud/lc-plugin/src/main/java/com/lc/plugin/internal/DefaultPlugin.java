@@ -1,6 +1,7 @@
 package com.lc.plugin.internal;
 
 import com.lc.plugin.api.*;
+import com.lc.plugin.api.Module;
 import com.lc.plugin.internal.api.InternalPlugin;
 import com.lc.tenant.api.MultiTenantUtil;
 

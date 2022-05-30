@@ -114,6 +114,7 @@ public class DefaultPluginAccessor implements InternalPluginAccessor,Application
 
         long time = System.currentTimeMillis();
 
+
         pluginStateResolver.setPluginAccessor(this);
 
         Set<InternalPlugin> enabledPluginsFromDescriptor = pluginDescriptorParser.loadPlugins();
