@@ -103,7 +103,7 @@ public abstract class ModuleFactory<T extends Module> {
         @SuppressWarnings("unchecked")
         List<Element> elements = element.getChildren();
         checkState(!elements.isEmpty(), "Missing content of " + getIdentifier() + " module");
-        checkState(elements.size() == 1, "Only one element can be defined in single " + getIdentifier() + " module");
+        checkState(elements.size() == 1, "单个元素只能定义一个 " + getIdentifier() + " module");
         return elements.get(0);
     }
 }

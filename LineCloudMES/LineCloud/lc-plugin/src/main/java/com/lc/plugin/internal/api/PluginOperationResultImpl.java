@@ -19,6 +19,9 @@ public class PluginOperationResultImpl implements PluginDependencyResult {
         this.pluginDependencyResult = pluginDependencyResult;
     }
 
+    public PluginOperationResultImpl() {
+    }
+
     @Override
     public boolean isSuccess() {
         switch (status) {
