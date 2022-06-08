@@ -24,6 +24,9 @@
         <module>lc-plugin</module>
         <module>lc-plugins-custom-translation-management</module>
         <module>lc-plugins-unit-conversion-management</module>
+        <module>lc-report</module>
+        <module>lc-custom-translation</module>
+        <module>lc-commons</module>
     </modules>
 
 

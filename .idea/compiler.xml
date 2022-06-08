@@ -11,6 +11,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="lc-tenant" />
+        <module name="lc-custom-translation" />
         <module name="lc-testing" />
         <module name="lc-plugins-unit-conversion-management" />
         <module name="lc-plugin-archetype" />
@@ -22,7 +23,9 @@
         <module name="mes-application" />
         <module name="lc-view" />
         <module name="lc-plugin" />
+        <module name="lc-report" />
         <module name="lc-plugins-custom-translation-management" />
+        <module name="lc-commons" />
       </profile>
       <profile name="Annotation profile for LineCloudMES" enabled="true">
         <sourceOutputDir name="../../target/generated-sources/annotations" />
@@ -54,6 +57,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="LineCloud" options="-parameters" />
       <module name="LineCloudMES" options="-parameters" />
+      <module name="lc-commons" options="-parameters" />
+      <module name="lc-custom-translation" options="-parameters" />
       <module name="lc-javadoc" options="-parameters" />
       <module name="lc-localization" options="-parameters" />
       <module name="lc-mail" options="-parameters" />
@@ -62,6 +67,7 @@
       <module name="lc-plugin-archetype" options="-parameters" />
       <module name="lc-plugins-custom-translation-management" options="-parameters" />
       <module name="lc-plugins-unit-conversion-management" options="-parameters" />
+      <module name="lc-report" options="-parameters" />
       <module name="lc-security" options="-parameters" />
       <module name="lc-tenant" options="-parameters" />
       <module name="lc-testing" options="-parameters" />
