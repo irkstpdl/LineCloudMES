@@ -18,9 +18,11 @@
         <module name="lc-security" />
         <module name="lc-javadoc" />
         <module name="lc-mail" />
+        <module name="lc-plugins-menu-management" />
         <module name="lc-model" />
         <module name="lc-localization" />
         <module name="mes-application" />
+        <module name="lc-swagger" />
         <module name="lc-view" />
         <module name="lc-plugin" />
         <module name="lc-report" />
@@ -31,6 +33,7 @@
         <sourceOutputDir name="../../target/generated-sources/annotations" />
         <sourceTestOutputDir name="../../target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="lc-plugins-export" />
         <module name="mes-plugins-column-extension" />
         <module name="mes-plugins-cost-calculation" />
         <module name="mes-plugins-cost-norms-for-product" />
@@ -66,9 +69,12 @@
       <module name="lc-plugin" options="-parameters" />
       <module name="lc-plugin-archetype" options="-parameters" />
       <module name="lc-plugins-custom-translation-management" options="-parameters" />
+      <module name="lc-plugins-export" options="-parameters" />
+      <module name="lc-plugins-menu-management" options="-parameters" />
       <module name="lc-plugins-unit-conversion-management" options="-parameters" />
       <module name="lc-report" options="-parameters" />
       <module name="lc-security" options="-parameters" />
+      <module name="lc-swagger" options="-parameters" />
       <module name="lc-tenant" options="-parameters" />
       <module name="lc-testing" options="-parameters" />
       <module name="lc-view" options="-parameters" />

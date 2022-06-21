@@ -27,6 +27,9 @@
         <module>lc-report</module>
         <module>lc-custom-translation</module>
         <module>lc-commons</module>
+        <module>lc-swagger</module>
+        <module>lc-plugins-export</module>
+        <module>lc-plugins-menu-management</module>
     </modules>
 
 

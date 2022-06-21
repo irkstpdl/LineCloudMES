@@ -10,9 +10,12 @@
     <file url="file://$PROJECT_DIR$/LineCloudMES/LineCloud/lc-plugin-archetype/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LineCloudMES/LineCloud/lc-plugin/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LineCloudMES/LineCloud/lc-plugins-custom-translation-management/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LineCloudMES/LineCloud/lc-plugins-export/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LineCloudMES/LineCloud/lc-plugins-menu-management/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LineCloudMES/LineCloud/lc-plugins-unit-conversion-management/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LineCloudMES/LineCloud/lc-report/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LineCloudMES/LineCloud/lc-security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LineCloudMES/LineCloud/lc-swagger/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LineCloudMES/LineCloud/lc-tenant/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LineCloudMES/LineCloud/lc-testing/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LineCloudMES/LineCloud/lc-view/src/main/java" charset="UTF-8" />
