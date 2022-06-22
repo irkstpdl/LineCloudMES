@@ -1,4 +1,4 @@
 package com.lc.plugins.lcExport.api;
 
-public class ExportToCsvColumns {
+public interface ExportToCsvColumns extends ExportToFileColumns {
 }
