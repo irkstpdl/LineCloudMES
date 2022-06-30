@@ -30,6 +30,7 @@
         <module>lc-swagger</module>
         <module>lc-plugins-export</module>
         <module>lc-plugins-menu-management</module>
+        <module>lc-plugins-user-management</module>
     </modules>
 
 

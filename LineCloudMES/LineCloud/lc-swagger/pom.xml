@@ -7,13 +7,16 @@
         <groupId>com.lc</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
+
+    <packaging>jar</packaging>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>lc-swagger</artifactId>
-
-    <properties>
-        <maven.compiler.source>16</maven.compiler.source>
-        <maven.compiler.target>16</maven.compiler.target>
-    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>2.10.1</version>
+        </dependency>
+    </dependencies>
 
 </project>
