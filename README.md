@@ -6,7 +6,7 @@
     - 分为客户端（PC端，工位终端），管理端，微信小程序端
 
 - 技术框架
-  - 使用Spring+Tdesign的形式来实现，Sprng框架用于处理后台的数据逻辑，Tdesign框架用于前端的数据显示
+  - 使用Spring+Tdesign的形式来实现，Spring框架用于处理后台的数据逻辑，Tdesign框架用于前端的数据显示
   - 使用git和maven管理项目
 
 
