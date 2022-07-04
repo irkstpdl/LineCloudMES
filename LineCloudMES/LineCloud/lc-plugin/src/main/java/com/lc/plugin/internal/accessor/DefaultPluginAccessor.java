@@ -8,6 +8,7 @@ import java.util.Map;
 import java.util.Set;
 
 import com.lc.model.beans.LineCloudPlugin.LineCloudPluginPlugin;
+import com.lc.tenant.api.MultiTenantUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
