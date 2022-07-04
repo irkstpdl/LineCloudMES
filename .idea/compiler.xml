@@ -11,6 +11,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="lc-plugins-user-management" />
+        <module name="lc-view" />
         <module name="lc-plugin" />
         <module name="lc-custom-translation" />
         <module name="lc-testing" />
@@ -45,7 +46,6 @@
         <module name="mes-plugins-advanced-genealogy" />
         <module name="mes-plugins-cost-norms-for-operation" />
         <module name="lc-swagger" />
-        <module name="lc-view" />
         <module name="lc-report" />
         <module name="mes-plugins-cat-numbers-in-negot" />
         <module name="mes-plugins-basic-production-counting" />
