@@ -41,8 +41,7 @@ public class EntityListMock extends LinkedList<Entity> implements EntityList{
         return create(Collections.<Entity> emptyList());
     }
     /**
-     * Create a new mock instance of an EntityList, containing given values.
-     *
+     * 创建一个包含给定值的 EntityList 的新模拟实例。
      * @param elements
      *            content of new mock
      * @return a new instance of an EntityList mock
@@ -52,9 +51,8 @@ public class EntityListMock extends LinkedList<Entity> implements EntityList{
     }
 
     /**
-     * Create a new mock instance of an EntityList, containing given values, with find() method stubbed for returning
-     * SearchCriteriaBuilder objects produced by given supplier (factory, provider).
-     *
+     * 创建一个包含给定值的 EntityList 的新模拟实例，并将 find() 方法存根用于返回
+     * SearchCriteriaBuilder 由给定供应商（工厂、供应商）生成的对象。
      * @param elements
      *            content of new mock
      * @param criteriaBuilderFactory

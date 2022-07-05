@@ -1,4 +1,6 @@
 package com.lc.tenant.api;
 
-public class MultiTenantCallback {
+public interface MultiTenantCallback {
+
+    void invoke();
 }

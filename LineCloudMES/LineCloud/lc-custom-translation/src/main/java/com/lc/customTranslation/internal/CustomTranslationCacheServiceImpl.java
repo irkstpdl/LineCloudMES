@@ -1,6 +1,5 @@
 package com.lc.customTranslation.internal;
 
-<<<<<<< HEAD
 import static com.lc.customTranslation.constants.CustomTranslationFields.ACTIVE;
 import static com.lc.customTranslation.constants.CustomTranslationFields.KEY;
 import static com.lc.customTranslation.constants.CustomTranslationFields.LOCALE;
@@ -18,7 +17,6 @@ import com.lc.customTranslation.constants.CustomTranslationFields;
 import com.lc.model.api.Entity;
 import com.lc.tenant.api.MultiTenantService;
 
-=======
->>>>>>> origin/main
+
 public class CustomTranslationCacheServiceImpl {
 }

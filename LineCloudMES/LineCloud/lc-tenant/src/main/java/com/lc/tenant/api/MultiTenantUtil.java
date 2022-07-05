@@ -14,7 +14,7 @@ public class MultiTenantUtil {
     private static MultiTenantUtil instance;
 
     /**
-     * Initialize utilities instance
+     * 初始化实用程序实例
      */
     @PostConstruct
     public void init() {
@@ -27,7 +27,7 @@ public class MultiTenantUtil {
     }
 
     /**
-     * Do callback in multitenant context.
+     * 在多租户上下文中进行回调。
      *
      * @param callback
      */
@@ -37,7 +37,7 @@ public class MultiTenantUtil {
     }
 
     /**
-     * Do callback in multitenant context for given tenant id.
+     * 在给定 tenant id的多租户上下文中执行回调。
      *
      * @param tenantId
      * @param callback
@@ -47,7 +47,7 @@ public class MultiTenantUtil {
     }
 
     /**
-     * Get current tenant id.
+     * 获取当前租户 id.
      *
      * @return tenant id
      */
