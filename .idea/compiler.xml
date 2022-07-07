@@ -10,52 +10,47 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="lc-mail" />
-        <module name="lc-localization" />
-        <module name="lc-security" />
+        <module name="lc-tenant" />
         <module name="lc-custom-translation" />
+        <module name="lc-plugins-unit-conversion-management" />
+        <module name="lc-model" />
+        <module name="lc-plugin-archetype" />
+        <module name="lc-localization" />
+        <module name="mes-application" />
+        <module name="lc-security" />
+        <module name="lc-plugin" />
+        <module name="lc-report" />
+        <module name="lc-javadoc" />
+        <module name="lc-commons" />
       </profile>
       <profile name="Annotation profile for LineCloudMES" enabled="true">
         <sourceOutputDir name="../../target/generated-sources/annotations" />
         <sourceTestOutputDir name="../../target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="lc-plugins-export" />
+        <module name="mes-plugins-column-extension" />
+        <module name="mes-plugins-cost-calculation" />
         <module name="mes-plugins-cost-norms-for-product" />
         <module name="lc-testing" />
         <module name="mes-plugins-cmms-machine-parts" />
-        <module name="mes-plugins-assignment-to-shift" />
-        <module name="mes-plugins-avg-labor-cost-calc-for-order" />
-        <module name="lc-javadoc" />
-        <module name="mes-plugins-cost-norms-for-operation-in-order" />
-        <module name="lc-model" />
-        <module name="mes-plugins-deliveries-min-state" />
-        <module name="mes-plugins-deliveries-to-material-flow" />
-        <module name="lc-plugins-custom-translation-management" />
-        <module name="lc-plugins-export" />
-        <module name="lc-tenant" />
-        <module name="mes-plugins-column-extension" />
-        <module name="mes-plugins-cost-calculation" />
-        <module name="lc-plugins-unit-conversion-management" />
-        <module name="lc-plugin-archetype" />
         <module name="mes-plugins-cat-numbers-in-deliveries" />
         <module name="lc-plugins-user-management" />
         <module name="mes-plugins-cost-norms-for-materials" />
+        <module name="mes-plugins-assignment-to-shift" />
+        <module name="mes-plugins-avg-labor-cost-calc-for-order" />
+        <module name="mes-plugins-cost-norms-for-operation-in-order" />
         <module name="mes-plugins-basic" />
+        <module name="lc-mail" />
         <module name="lc-plugins-menu-management" />
         <module name="mes-plugins-advanced-genealogy" />
         <module name="mes-plugins-cost-norms-for-operation" />
+        <module name="mes-plugins-deliveries-min-state" />
         <module name="lc-swagger" />
+        <module name="mes-plugins-deliveries-to-material-flow" />
         <module name="lc-view" />
-        <module name="lc-plugin" />
-        <module name="lc-report" />
         <module name="mes-plugins-cat-numbers-in-negot" />
+        <module name="lc-plugins-custom-translation-management" />
         <module name="mes-plugins-basic-production-counting" />
-        <module name="lc-commons" />
-      </profile>
-      <profile name="Annotation profile for mes-application" enabled="true">
-        <sourceOutputDir name="../target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="mes-application" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
