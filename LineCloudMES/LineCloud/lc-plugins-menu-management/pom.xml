@@ -10,10 +10,38 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>lc-plugins-menu-management</artifactId>
+    <packaging>lc-plugin</packaging>
 
-    <properties>
-        <maven.compiler.source>16</maven.compiler.source>
-        <maven.compiler.target>16</maven.compiler.target>
-    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>com.lc</groupId>
+            <artifactId>lc-model</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.lc</groupId>
+            <artifactId>lc-view</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.lc</groupId>
+            <artifactId>lc-report</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.lc</groupId>
+                <artifactId>lc-maven-plugin</artifactId>
+                <version>${lc.maven.plugin.version}</version>
+                <extensions>true</extensions>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
