@@ -1,12 +1,12 @@
 package com.lc.localization.api;
 
+import com.lc.localization.internal.module.LocaleModuleFactory;
+
 import java.util.Locale;
 import java.util.Map;
 
-import com.lc.localization.internal.module.LocaleModuleFactory;
-
 /**
- * Service for getting translations.
+ * 获取翻译服务。
  *
  * @since 0.4.0
  */

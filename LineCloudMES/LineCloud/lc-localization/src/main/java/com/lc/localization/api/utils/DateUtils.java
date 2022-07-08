@@ -1,18 +1,16 @@
 package com.lc.localization.api.utils;
 
-import static com.google.common.base.Optional.of;
-import static com.lc.commons.functional.Either.left;
-import static com.lc.commons.functional.Either.right;
+import com.google.common.base.Optional;
+import com.lc.commons.functional.Either;
+import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.time.DateFormatUtils;
 
 import java.text.ParseException;
 import java.util.Date;
 
-import org.apache.commons.lang3.StringUtils;
-import org.apache.commons.lang3.time.DateFormatUtils;
-//import org.joda.time.DateTime;
-
-import com.google.common.base.Optional;
-import com.lc.commons.functional.Either;
+import static com.google.common.base.Optional.of;
+import static com.lc.commons.functional.Either.left;
+import static com.lc.commons.functional.Either.right;
 public final class DateUtils {
 
     private static final String PARSE_EXCEPTION_MSG = "Can't parse date from value '%s'";
@@ -20,17 +18,17 @@ public final class DateUtils {
     private static final String L_WRONG_DATE = "wrong date";
 
     /**
-     * Date format.
+     * 日期格式。
      */
     public static final String L_DATE_FORMAT = "yyyy-MM-dd";
 
     /**
-     * Date-time format.
+     * 日期时间格式。
      */
     public static final String L_DATE_TIME_FORMAT = "yyyy-MM-dd HH:mm:ss";
 
     /**
-     * Date-time format for report files.
+     * 报告文件的日期时间格式。
      */
     public static final String L_REPORT_DATE_TIME_FORMAT = "yyyy_MM_dd_HH_mm_ss";
 
@@ -41,29 +39,8 @@ public final class DateUtils {
     }
 
     /**
-     * Parse string into date, with autocomplete missing month, day, hour, minute and second.
+     * 将字符串解析为日期，自动完成缺少月、日、小时、分钟和秒。
      *
-     * Examples with up-complete:
-     *
-     * <ul>
-     * <li>2010: 2010-12-31 23:59:59</li>
-     * <li>2010-03: 2010-03-31 23:59:59</li>
-     * <li>2010-03-06: 2010-03-06 23:59:59</li>
-     * <li>2010-03-06 19: 2010-03-06 19:59:59</li>
-     * <li>2010-03-06 19:30: 2010-03-06 19:30:59</li>
-     * <li>2010-03-06 19:30:20: 2010-03-06 19:30:20</li>
-     * </ul>
-     *
-     * Examples with down-complete:
-     *
-     * <ul>
-     * <li>2010: 2010-01-01 00:00:00</li>
-     * <li>2010-03: 2010-03-01 00:00:00</li>
-     * <li>2010-03-06: 2010-03-06 00:00:00</li>
-     * <li>2010-03-06 19: 2010-03-06 19:00:00</li>
-     * <li>2010-03-06 19:30: 2010-03-06 19:30:00</li>
-     * <li>2010-03-06 19:30:20: 2010-03-06 19:30:20</li>
-     * </ul>
      *
      * @param dateExpression
      *            string with date expression

@@ -14,12 +14,14 @@
         <module name="lc-custom-translation" />
         <module name="lc-plugins-unit-conversion-management" />
         <module name="lc-plugin-archetype" />
+        <module name="lc-plugins-user-management" />
         <module name="lc-security" />
         <module name="lc-javadoc" />
         <module name="lc-plugins-menu-management" />
         <module name="lc-model" />
         <module name="lc-localization" />
         <module name="mes-application" />
+        <module name="lc-view" />
         <module name="lc-plugin" />
         <module name="lc-report" />
         <module name="lc-commons" />
@@ -35,7 +37,6 @@
         <module name="lc-testing" />
         <module name="mes-plugins-cat-numbers-in-deliveries" />
         <module name="mes-plugins-cmms-machine-parts" />
-        <module name="lc-plugins-user-management" />
         <module name="mes-plugins-cost-norms-for-materials" />
         <module name="mes-plugins-assignment-to-shift" />
         <module name="mes-plugins-avg-labor-cost-calc-for-order" />
@@ -46,7 +47,6 @@
         <module name="mes-plugins-cost-norms-for-operation" />
         <module name="lc-swagger" />
         <module name="mes-plugins-deliveries-min-state" />
-        <module name="lc-view" />
         <module name="mes-plugins-deliveries-to-material-flow" />
         <module name="mes-plugins-cat-numbers-in-negot" />
         <module name="mes-plugins-basic-production-counting" />
