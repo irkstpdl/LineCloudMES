@@ -8,6 +8,7 @@
 		<module>mes-plugins</module>
 		<module>mes-plugins/mes-plugins-basic-production-counting</module>
         <module>LineCloud</module>
+        <module>mes-plugins/mes-plugins-work-plans</module>
     </modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
