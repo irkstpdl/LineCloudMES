@@ -1,14 +1,13 @@
 package com.lc.plugins.customTranslations.internal.hooks;
 
-import static com.lc.customTranslation.constants.CustomTranslationFields.PLUGIN_IDENTIFIER;
-import static com.lc.plugins.customTranslations.constants.CustomTranslationFieldsCTM.PLUGIN_NAME;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
 import com.lc.model.api.DataDefinition;
 import com.lc.model.api.Entity;
 import com.lc.plugin.api.PluginAccessor;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import static com.lc.customTranslation.constants.CustomTranslationFields.PLUGIN_IDENTIFIER;
+import static com.lc.plugins.customTranslations.constants.CustomTranslationFieldsCTM.PLUGIN_NAME;
 @Service
 public class CustomTranslationModelHooksCTM {
 

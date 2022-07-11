@@ -10,9 +10,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="lc-testing" />
         <module name="mes-application" />
+        <module name="lc-testing" />
         <module name="lc-plugins-unit-conversion-management" />
+        <module name="lc-plugins-custom-translation-management" />
       </profile>
       <profile name="Annotation profile for LineCloudMES" enabled="true">
         <sourceOutputDir name="../../target/generated-sources/annotations" />
@@ -28,7 +29,6 @@
         <module name="mes-plugins-deliveries-min-state" />
         <module name="lc-localization" />
         <module name="mes-plugins-deliveries-to-material-flow" />
-        <module name="lc-plugins-custom-translation-management" />
         <module name="lc-plugins-export" />
         <module name="lc-tenant" />
         <module name="mes-plugins-column-extension" />
