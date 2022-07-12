@@ -3,7 +3,7 @@ package com.lc.plugin.api;
 import java.io.Serializable;
 
 /**
- * Version of the plugin - contains three numbers - major, minor and branch.
+ * 插件的版本 - 包含三个数字 - 主要、次要和分支。
  *
  * @since 0.1.0
  */
@@ -18,10 +18,11 @@ public class Version implements Comparable<Version>,Serializable {
     private final int branch;
 
     /**
-     * Creates version from string. Numbers are split using dot. Dash and everything after it is ignored. If there is one number,
-     * minor and branch will be set to 0. If there are two numbers, branch will be set to 0.
+     * 从字符串创建版本。 数字使用点分割,破折号和它之后的一切都被忽略了。
+     * 如果有一个数字，minor 和 branch 将被设置为 0。
+     * 如果有两个数字，则 branch 将被设置为 0。
      *
-     * Examples:
+     * 例如:
      *
      * <ul>
      * <li>2.3.4-SNAPSHOT: 2.3.4</li>

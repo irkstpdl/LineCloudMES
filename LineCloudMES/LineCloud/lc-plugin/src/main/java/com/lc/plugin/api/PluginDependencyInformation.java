@@ -1,7 +1,5 @@
 package com.lc.plugin.api;
 
-import org.springframework.security.core.parameters.P;
-
 /**
  * Plugin's requirements. It holds required plugin's identifier and optionally required version.
  *
@@ -24,8 +22,7 @@ public class PluginDependencyInformation {
     }
 
     /**
-     * Creates requirement for plugin with given identifier and version.
-     *
+     * 为具有给定标识符和版本的插件创建要求。
      * @param identifier
      *            required plugin's identifier
      * @param version
@@ -37,18 +34,18 @@ public class PluginDependencyInformation {
     }
 
     /**
-     * Returns required plugin's identifier.
+     * 返回所需插件的标识符。
      *
-     * @return required plugin's identifier
+     * @return 所需插件的标识符
      */
     public String getIdentifier() {
         return identifier;
     }
 
     /**
-     * Returns required plugin's version
+     * 返回所需插件的版本
      *
-     * @return required plugin's version
+     * @return 所需插件的版本
      */
     public VersionOfDependency getVersionOfDependency() {
         return version;
